@@ -256,7 +256,7 @@ class Manager
             'forum'
         );
 
-        $url =  $link = $this->container->get('request')->server->get('HTTP_ORIGIN') .
+        $url =  $link = $this->container->get('request')->server->get('HTTP_HOST') .
                 $this->router->generate('claro_forum_subjects', array('category' => $message->getSubject()->getCategory()->getId()));
         $body = "<a href='{$url}'>{$title}</a><hr>{$message->getContent()}";
 
