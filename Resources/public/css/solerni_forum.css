@@ -96,7 +96,7 @@ i.icon-comment
     margin-bottom: 2em;
 }
 .panel-heading .slrn-panel-title {
-    margin-bottom: 1.2em;
+    margin-bottom: 0.4em;
 }
 
 /* forum mini widget */
@@ -123,4 +123,8 @@ i.icon-comment
     -moz-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
+}
+
+.panel-body {
+    margin-top: 1.2em;
 }
